@@ -39,14 +39,14 @@ vblankwait2:
   STA coin_x
   LDA #$a1
   STA player_y
-  LDA #$00
-  STA player_speed
-  STA score
-  STA score_x
   LDA #$01
   STA coin_y
   LDA #$04
   STA player_life
+  LDA #$00
+  STA player_speed
+  STA score
+  STA score_x
 
   JMP main
 .endproc
